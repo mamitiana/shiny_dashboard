@@ -1,0 +1,25 @@
+# R
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+
+# renv
+renv/library/
+renv/staging/
+renv/python/
+renv/sandbox/
+renv/local/
+
+# Generated data artifacts (reproducible via data-raw/)
+data/*.rds
+data/*.parquet
+!data/.gitkeep
+
+# shinytest2 run artifacts
+tests/testthat/_snaps/**/*.new.png
+
+# OS
+.DS_Store
+Thumbs.db
